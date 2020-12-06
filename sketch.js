@@ -52,6 +52,11 @@ function draw() {
     happyDog.visible = false;
     Food.visible = false;
   }
+  if(foodS == 0){
+  dog.visible=true;
+  foodS = 1000;
+
+}
 
   drawSprites();
   textSize(24);
